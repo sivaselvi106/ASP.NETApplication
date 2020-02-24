@@ -18,6 +18,7 @@ namespace ASP.NETApplication
                 txtMailID.Text = cookies["MailID"];
                 txtMobNo.Text = cookies["MobNo"];
                 txtEQ.Text = cookies["EQ"];
+
             }
         }
     }

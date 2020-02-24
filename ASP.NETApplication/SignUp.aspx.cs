@@ -11,16 +11,16 @@ namespace ASP.NETApplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            EQList_SelectedIndexChanged();
         }
-        protected void EQList_SelectedIndexChanged(object sender, EventArgs e)
+        protected void EQList_SelectedIndexChanged()
         {
             if (!IsPostBack)
             {
-                ListItem pg = new ListItem("PG", "1");
-                ListItem ug = new ListItem("UG", "2");
-                ListItem hsc = new ListItem("HSC", "3");
-                ListItem sslc = new ListItem("SSLC", "4");
+                ListItem pg = new ListItem("PG");
+                ListItem ug = new ListItem("UG");
+                ListItem hsc = new ListItem("HSC");
+                ListItem sslc = new ListItem("SSLC");
                 EQList.Items.Add(pg);
                 EQList.Items.Add(ug);
                 EQList.Items.Add(hsc);

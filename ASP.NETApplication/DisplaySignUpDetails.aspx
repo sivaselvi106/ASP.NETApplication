@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DisplaySignUpDetails.aspx.cs" Inherits="ASP.NETApplication.DisplaySignUpDetails" %>
+﻿<%@ Page Language="C#" Trace="true" AutoEventWireup="true" CodeBehind="DisplaySignUpDetails.aspx.cs" Inherits="ASP.NETApplication.DisplaySignUpDetails" %>
 
 <!DOCTYPE html>
 

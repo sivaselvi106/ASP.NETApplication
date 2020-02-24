@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignUp.aspx.cs" Inherits="ASP.NETApplication.SignUp" %>
+﻿<%@ Page Language="C#"  AutoEventWireup="true" CodeBehind="SignUp.aspx.cs" Inherits="ASP.NETApplication.SignUp" %>
 
 <!DOCTYPE html>
 
@@ -42,11 +42,7 @@
                 <tr>
                     <td>Educational Qualification</td>
                     <td>
-                        <asp:DropDownList runat="server" ID="EQList" OnSelectedIndexChanged="EQList_SelectedIndexChanged">
-                            <asp:ListItem Value="1">PG</asp:ListItem>
-                            <asp:ListItem Value="2">UG</asp:ListItem>
-                            <asp:ListItem Value="3">HSC</asp:ListItem>
-                            <asp:ListItem Value="4">SSLC</asp:ListItem>
+                        <asp:DropDownList runat="server" ID="EQList">
                         </asp:DropDownList>
                     </td>
                 </tr>
